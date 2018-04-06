@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BF4999697EBAA000C8FF7D3 /* Pods_PixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA2DF87FFB5BF2483DF0ADB /* Pods_PixelCity.framework */; };
+		AC71967A2076EFEA00CFF449 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7196792076EFEA00CFF449 /* DroppablePin.swift */; };
 		AC825160207598C000476BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82515F207598C000476BBD /* AppDelegate.swift */; };
 		AC825162207598C000476BBD /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC825161207598C000476BBD /* MapVC.swift */; };
 		AC825165207598C000476BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC825163207598C000476BBD /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		89B97EBD35F97A31E013C118 /* Pods-PixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity.release.xcconfig"; sourceTree = "<group>"; };
+		AC7196792076EFEA00CFF449 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		AC82515C207598C000476BBD /* PixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC82515F207598C000476BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC825161207598C000476BBD /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		AC8251722075994800476BBD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AC7196792076EFEA00CFF449 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC825162207598C000476BBD /* MapVC.swift in Sources */,
+				AC71967A2076EFEA00CFF449 /* DroppablePin.swift in Sources */,
 				AC825160207598C000476BBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +387,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 493PFTF9Q4;
 				INFOPLIST_FILE = PixelCity/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techforline.PixelCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -399,7 +406,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 493PFTF9Q4;
 				INFOPLIST_FILE = PixelCity/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techforline.PixelCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
