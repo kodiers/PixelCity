@@ -16,6 +16,7 @@
 		AC825165207598C000476BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC825163207598C000476BBD /* Main.storyboard */; };
 		AC825167207598C200476BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC825166207598C200476BBD /* Assets.xcassets */; };
 		AC82516A207598C200476BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC825168207598C200476BBD /* LaunchScreen.storyboard */; };
+		ACBB6C65208024340021BD6B /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB6C64208024340021BD6B /* PopVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		AC825169207598C200476BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC82516B207598C200476BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACA2DF87FFB5BF2483DF0ADB /* Pods_PixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBB6C64208024340021BD6B /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		EC64916A919EAA1FF9FF02AB /* Pods-PixelCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				AC825161207598C000476BBD /* MapVC.swift */,
+				ACBB6C64208024340021BD6B /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBB6C65208024340021BD6B /* PopVC.swift in Sources */,
 				AC3B39E0207D8D1200A72EBF /* Constants.swift in Sources */,
 				AC3B39DE207D854A00A72EBF /* PhotoCell.swift in Sources */,
 				AC825162207598C000476BBD /* MapVC.swift in Sources */,
